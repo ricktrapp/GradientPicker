@@ -1,0 +1,19 @@
+//
+//  AppDelegate.h
+//  GradientPicker
+//
+//  Created by Richard Trapp on 9/18/12.
+//  Copyright (c) 2012 Richard Trapp. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@class ViewController;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) ViewController *viewController;
+
+@end
