@@ -15,6 +15,17 @@
 		1D71E5CC160981E900A43ED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5CB160981E900A43ED5 /* AppDelegate.m */; };
 		1D71E5CF160981E900A43ED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5CE160981E900A43ED5 /* ViewController.m */; };
 		1D71E5D2160981E900A43ED5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D71E5D0160981E900A43ED5 /* ViewController.xib */; };
+		1D71E5DC160982BA00A43ED5 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5D9160982BA00A43ED5 /* Functions.m */; };
+		1D71E5DD160982BA00A43ED5 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5DB160982BA00A43ED5 /* GradientView.m */; };
+		1D71E5E4160985B700A43ED5 /* ControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5DF160985B700A43ED5 /* ControlView.m */; };
+		1D71E5E5160985B700A43ED5 /* LineEndView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5E1160985B700A43ED5 /* LineEndView.m */; };
+		1D71E5E6160985B700A43ED5 /* LineStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5E3160985B700A43ED5 /* LineStartView.m */; };
+		1D71E5F816098BC600A43ED5 /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5EF16098BC600A43ED5 /* ILColorPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D71E5F916098BC600A43ED5 /* ILHuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5F116098BC600A43ED5 /* ILHuePickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D71E5FA16098BC600A43ED5 /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5F316098BC600A43ED5 /* ILSaturationBrightnessPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D71E5FB16098BC600A43ED5 /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5F516098BC600A43ED5 /* ILView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D71E5FC16098BC600A43ED5 /* UIColor+GetHSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D71E5F716098BC600A43ED5 /* UIColor+GetHSB.m */; };
+		1DF9A72E160B8A0100BD5C93 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 1DF9A72D160B8A0100BD5C93 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +42,28 @@
 		1D71E5CD160981E900A43ED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1D71E5CE160981E900A43ED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1D71E5D1160981E900A43ED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1D71E5D8160982BA00A43ED5 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		1D71E5D9160982BA00A43ED5 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		1D71E5DA160982BA00A43ED5 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		1D71E5DB160982BA00A43ED5 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		1D71E5DE160985B700A43ED5 /* ControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlView.h; sourceTree = "<group>"; };
+		1D71E5DF160985B700A43ED5 /* ControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlView.m; sourceTree = "<group>"; };
+		1D71E5E0160985B700A43ED5 /* LineEndView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineEndView.h; sourceTree = "<group>"; };
+		1D71E5E1160985B700A43ED5 /* LineEndView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineEndView.m; sourceTree = "<group>"; };
+		1D71E5E2160985B700A43ED5 /* LineStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineStartView.h; sourceTree = "<group>"; };
+		1D71E5E3160985B700A43ED5 /* LineStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineStartView.m; sourceTree = "<group>"; };
+		1D71E5EB160988C900A43ED5 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1D71E5EE16098BC600A43ED5 /* ILColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerView.h; sourceTree = "<group>"; };
+		1D71E5EF16098BC600A43ED5 /* ILColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerView.m; sourceTree = "<group>"; };
+		1D71E5F016098BC600A43ED5 /* ILHuePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILHuePickerView.h; sourceTree = "<group>"; };
+		1D71E5F116098BC600A43ED5 /* ILHuePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILHuePickerView.m; sourceTree = "<group>"; };
+		1D71E5F216098BC600A43ED5 /* ILSaturationBrightnessPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSaturationBrightnessPickerView.h; sourceTree = "<group>"; };
+		1D71E5F316098BC600A43ED5 /* ILSaturationBrightnessPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSaturationBrightnessPickerView.m; sourceTree = "<group>"; };
+		1D71E5F416098BC600A43ED5 /* ILView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILView.h; sourceTree = "<group>"; };
+		1D71E5F516098BC600A43ED5 /* ILView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILView.m; sourceTree = "<group>"; };
+		1D71E5F616098BC600A43ED5 /* UIColor+GetHSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GetHSB.h"; sourceTree = "<group>"; };
+		1D71E5F716098BC600A43ED5 /* UIColor+GetHSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GetHSB.m"; sourceTree = "<group>"; };
+		1DF9A72D160B8A0100BD5C93 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +83,7 @@
 		1D71E5AC160981E900A43ED5 = {
 			isa = PBXGroup;
 			children = (
+				1DF9A72D160B8A0100BD5C93 /* README */,
 				1D71E5C1160981E900A43ED5 /* GradientPicker */,
 				1D71E5BA160981E900A43ED5 /* Frameworks */,
 				1D71E5B8160981E900A43ED5 /* Products */,
@@ -77,6 +111,16 @@
 		1D71E5C1160981E900A43ED5 /* GradientPicker */ = {
 			isa = PBXGroup;
 			children = (
+				1D71E5ED16098B6700A43ED5 /* IL */,
+				1D71E5EC16098AB600A43ED5 /* Common */,
+				1D71E5DE160985B700A43ED5 /* ControlView.h */,
+				1D71E5DF160985B700A43ED5 /* ControlView.m */,
+				1D71E5E0160985B700A43ED5 /* LineEndView.h */,
+				1D71E5E1160985B700A43ED5 /* LineEndView.m */,
+				1D71E5E2160985B700A43ED5 /* LineStartView.h */,
+				1D71E5E3160985B700A43ED5 /* LineStartView.m */,
+				1D71E5DA160982BA00A43ED5 /* GradientView.h */,
+				1D71E5DB160982BA00A43ED5 /* GradientView.m */,
 				1D71E5CA160981E900A43ED5 /* AppDelegate.h */,
 				1D71E5CB160981E900A43ED5 /* AppDelegate.m */,
 				1D71E5CD160981E900A43ED5 /* ViewController.h */,
@@ -96,6 +140,33 @@
 				1D71E5C9160981E900A43ED5 /* GradientPicker-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D71E5EC16098AB600A43ED5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1D71E5EB160988C900A43ED5 /* Constants.h */,
+				1D71E5D8160982BA00A43ED5 /* Functions.h */,
+				1D71E5D9160982BA00A43ED5 /* Functions.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1D71E5ED16098B6700A43ED5 /* IL */ = {
+			isa = PBXGroup;
+			children = (
+				1D71E5EE16098BC600A43ED5 /* ILColorPickerView.h */,
+				1D71E5EF16098BC600A43ED5 /* ILColorPickerView.m */,
+				1D71E5F016098BC600A43ED5 /* ILHuePickerView.h */,
+				1D71E5F116098BC600A43ED5 /* ILHuePickerView.m */,
+				1D71E5F216098BC600A43ED5 /* ILSaturationBrightnessPickerView.h */,
+				1D71E5F316098BC600A43ED5 /* ILSaturationBrightnessPickerView.m */,
+				1D71E5F416098BC600A43ED5 /* ILView.h */,
+				1D71E5F516098BC600A43ED5 /* ILView.m */,
+				1D71E5F616098BC600A43ED5 /* UIColor+GetHSB.h */,
+				1D71E5F716098BC600A43ED5 /* UIColor+GetHSB.m */,
+			);
+			name = IL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +222,7 @@
 			files = (
 				1D71E5C6160981E900A43ED5 /* InfoPlist.strings in Resources */,
 				1D71E5D2160981E900A43ED5 /* ViewController.xib in Resources */,
+				1DF9A72E160B8A0100BD5C93 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +236,16 @@
 				1D71E5C8160981E900A43ED5 /* main.m in Sources */,
 				1D71E5CC160981E900A43ED5 /* AppDelegate.m in Sources */,
 				1D71E5CF160981E900A43ED5 /* ViewController.m in Sources */,
+				1D71E5DC160982BA00A43ED5 /* Functions.m in Sources */,
+				1D71E5DD160982BA00A43ED5 /* GradientView.m in Sources */,
+				1D71E5E4160985B700A43ED5 /* ControlView.m in Sources */,
+				1D71E5E5160985B700A43ED5 /* LineEndView.m in Sources */,
+				1D71E5E6160985B700A43ED5 /* LineStartView.m in Sources */,
+				1D71E5F816098BC600A43ED5 /* ILColorPickerView.m in Sources */,
+				1D71E5F916098BC600A43ED5 /* ILHuePickerView.m in Sources */,
+				1D71E5FA16098BC600A43ED5 /* ILSaturationBrightnessPickerView.m in Sources */,
+				1D71E5FB16098BC600A43ED5 /* ILView.m in Sources */,
+				1D71E5FC16098BC600A43ED5 /* UIColor+GetHSB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +293,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -232,7 +314,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -243,10 +325,12 @@
 		1D71E5D6160981E900A43ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Richard TRAPP (PXRC7SUCLA)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradientPicker/GradientPicker-Prefix.pch";
 				INFOPLIST_FILE = "GradientPicker/GradientPicker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "796768EB-A4CA-4CB3-B68B-A3D63970041E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -281,6 +365,7 @@
 				1D71E5D7160981E900A43ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
