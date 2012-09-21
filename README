@@ -1,2 +1,29 @@
 IOS Developer tool to generate xcode statements to display a gradient
 
+This project uses the ILColorPicker from github user jawngee (https://github.com/jawngee/ILColorPicker).  Nice job, Jon!
+
+An IOS developer can use this tool to design a gradient and then copy/paste xcode statements into his/her own project to draw that gradient as a view background.
+
+Instructions for use:
+
+1.  download the repository
+2.  open the project in Xcode and run it in the iPad simuator (or deploy to your own iPad).
+3.  The app starts out as a standard color picker along with a control view.
+4.  In "Start Color" you can choose hue, saturation and brightness and see live results in the background view.
+5.  You can drag the Control and Start Color view around the screen as needed.
+6.  You can collapse/expand the Control view by using the -/+ in the upper right.
+7.  You can Hide/Show the Start Color view as needed using "Hide/Show Start Color" in the Control area.
+8.  Hit Generate to see a TextView showing Xcode statements that you can Copy/Paste into your own project.  These statements assume that you have copied the "Functions.h/m" from GradientPicker to your own project and have included them into appropriate objects.  "Functions.h/m" uses ARC, so if your project does not then set -fobjc-arc compiler flag in the Build Phase.
+9.  Hit "Add 2nd Color" to go from standard color picker to gradient picker mode.
+10. As with Start Color, in End Color you can choose the second color's HSB and drag/hide the view as needed.
+11. Drag the spot where the first color starts in the gradient (small black circle) and where the second color ends (small black square) to anywhere you like to achieve the effect you need.
+12. In Control, toggle button Radial/Linear switches back and forth between 2 types of gradients.
+13. In Control, toggle button No Extent/Extend switches kCGGradientDrawsBeforeStartLocation and kCGGradientDrawsAfterEndLocation on and off.
+14. You can control the radius of the start and end gradient circle in Radial mode using the sliders.
+15. Generate again displays statements that you can Copy/Paste to use in your own project.
+16. In Radial gradient mode, you can make the start radius very large, the end radius very small, then center the large circle, then drag the small end point to near the middle of the large circle to get a round highlight effect.  Then check the effect when you turn on Extend!
+17. Of course when you use the generated statements in your project, your gradient won't display the black circle and square and the connecter line!
+
+
+
+
