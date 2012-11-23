@@ -7,6 +7,7 @@
 //
 
 #import "LineStartView.h"
+#import "Constants.h"
 
 @implementation LineStartView
 
@@ -23,13 +24,16 @@
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    CGRect fillRect = rect;
-    CGContextAddRect(context, fillRect);
+//    CGRect fillRect = rect;
+//    CGContextAddRect(context, fillRect);
 //    CGContextSetFillColorWithColor(context, [UIColor clearColor].CGColor);
-    CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
-    CGContextFillPath(context);
+//    CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
+//    CGContextFillPath(context);
 
-    CGContextAddEllipseInRect(context, rect);
+    CGFloat newX = (self.frame.size.width/2)-(kPointInnerDim/2);
+    CGFloat newY = (self.frame.size.height/2)-(kPointInnerDim/2);
+    CGRect smallSquare = CGRectMake(newX, newY, kPointInnerDim, kPointInnerDim);
+    CGContextAddEllipseInRect(context, smallSquare);
     CGContextSetFillColorWithColor(context, [[UIColor blackColor] CGColor]);
     CGContextSetStrokeColorWithColor(context, [[UIColor whiteColor] CGColor]);
     CGContextSetLineWidth(context, 0.5);

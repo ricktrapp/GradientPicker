@@ -66,29 +66,30 @@
     self.controlView.endView = self.endColorPicker;
     
     CGPoint lineStartPoint = CGPointMake(20, 200);
-    CGRect lineStartRect = CGRectMake(lineStartPoint.x, lineStartPoint.y-9, 18, 18);
+    CGRect lineStartRect = CGRectMake(lineStartPoint.x, lineStartPoint.y-(kPointDim/2), kPointDim, kPointDim);
     self.lineStartView = [[LineStartView alloc] initWithFrame:lineStartRect];
-//    self.lineStartView.backgroundColor = [UIColor clearColor];
+    self.lineStartView.backgroundColor = [UIColor clearColor];
     self.lineStartView.hidden = YES;
     [self.view addSubview:self.lineStartView];
     UIPanGestureRecognizer *startPanGesture = [[UIPanGestureRecognizer alloc]
                                                initWithTarget:self action:@selector(handlePanGesture:)];
     startPanGesture.delegate = self;
     [self.lineStartView addGestureRecognizer:startPanGesture];
-    lineStartPoint.x += 4;
+    lineStartPoint.x += (kPointDim/2);
     ((GradientView *)self.view).startPoint = lineStartPoint;
     self.controlView.startPoint = lineStartPoint;
     
     CGPoint lineEndPoint = CGPointMake(740, 200);
-    CGRect lineEndRect = CGRectMake(lineEndPoint.x, lineEndPoint.y-9, 18, 18);
+    CGRect lineEndRect = CGRectMake(lineEndPoint.x, lineEndPoint.y-(kPointDim/2), kPointDim, kPointDim);
     self.lineEndView = [[LineEndView alloc] initWithFrame:lineEndRect];
+    self.lineEndView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:self.lineEndView];
     self.lineEndView.hidden = YES;
     UIPanGestureRecognizer *endPanGesture = [[UIPanGestureRecognizer alloc]
                                              initWithTarget:self action:@selector(handlePanGesture:)];
     endPanGesture.delegate = self;
     [self.lineEndView addGestureRecognizer:endPanGesture];
-    lineEndPoint.x += 4;
+    lineEndPoint.x += (kPointDim/2);
     ((GradientView *)self.view).endPoint = lineEndPoint;
     self.controlView.endPoint = lineEndPoint;
     

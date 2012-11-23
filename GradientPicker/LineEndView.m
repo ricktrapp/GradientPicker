@@ -7,6 +7,7 @@
 //
 
 #import "LineEndView.h"
+#import "Constants.h"
 
 @implementation LineEndView
 
@@ -22,10 +23,24 @@
 - (void)drawRect:(CGRect)rect
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
-    CGRect fillRect = rect;
-    CGContextAddRect(context, fillRect);
+    
+    
+//    CGRect myRect = {{x1, y1, {x2 - x1, y2 - y1}};
+    CGFloat newX = (self.frame.size.width/2)-(kPointInnerDim/2);
+    CGFloat newY = (self.frame.size.height/2)-(kPointInnerDim/2);
+    CGRect smallSquare = CGRectMake(newX, newY, kPointInnerDim, kPointInnerDim);
+//        CGContextSetRGBFillColor(context, 1.0, 0.0, 0.0, 1.0);
+    
+//        CGContextSetRGBStrokeColor(context, 0.0, 1.0, 0.0, 1.0);
+    
+    
+    
+    
+//    CGRect fillRect = rect;
+//    CGContextAddRect(context, fillRect);
     CGContextSetFillColorWithColor(context, [UIColor blackColor].CGColor);
-    CGContextFillPath(context);
+//    CGContextFillPath(context);
+    CGContextFillRect(context, smallSquare);
 }
 
 @end

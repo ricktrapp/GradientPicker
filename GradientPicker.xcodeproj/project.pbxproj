@@ -325,12 +325,14 @@
 		1D71E5D6160981E900A43ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Richard TRAPP (PXRC7SUCLA)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard TRAPP (PXRC7SUCLA)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradientPicker/GradientPicker-Prefix.pch";
 				INFOPLIST_FILE = "GradientPicker/GradientPicker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "796768EB-A4CA-4CB3-B68B-A3D63970041E";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16884FED-02A1-49D6-B56F-A94ABBA0A2FD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -338,10 +340,14 @@
 		1D71E5D7160981E900A43ED5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard TRAPP (PXRC7SUCLA)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GradientPicker/GradientPicker-Prefix.pch";
 				INFOPLIST_FILE = "GradientPicker/GradientPicker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "16884FED-02A1-49D6-B56F-A94ABBA0A2FD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

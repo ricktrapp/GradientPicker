@@ -13,5 +13,7 @@ static float __attribute__((unused)) kSliderMax = 500.0;
 static float __attribute__((unused)) kStartRadius = 153.0;
 static float __attribute__((unused)) kEndRadius = 92.0;
 static float __attribute__((unused)) kCornerRadius = 5.0;
+static float __attribute__((unused)) kPointDim = 44.0;
+static float __attribute__((unused)) kPointInnerDim = 12.0;
 
 #endif
